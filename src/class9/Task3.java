@@ -18,7 +18,7 @@ public class Task3 {
 
         System.out.println("start "+start+"  end "+end);
 
-        int evenSum=0;
+        int evenSum=0; // accumulate
         int oddSum=0;
         for (int i = start; i <=end ; i++) {
             if(i%2==0){
