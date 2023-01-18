@@ -15,6 +15,17 @@ public class ForEachLoopDemo2 {
             }
         }
         // Replace all the odd numbers in this array with the help of a normal loop
+        for (int i = 0; i < arr.length; i++) {
+            if(arr[i]%2!=0){
+                arr[i]=0;
+            }
+        }
 
+        System.out.println("After replacing all odd numbers with zeros");
+        for (int i = 0; i < arr.length; i++) {
+
+                System.out.println(arr[i]);
+
+        }
     }
 }
