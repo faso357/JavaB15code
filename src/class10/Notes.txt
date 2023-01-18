@@ -9,3 +9,8 @@ First way of creating arrays:
     System.out.println(arr[0])
 second way of creating arrays:
     DataType[] arr=new Datatype[Size]
+Note:
+    Other than using loops we can also use below syntax
+     int[] arr={10,13,20,25,45,50};
+            // Below code prints all the elements from an array without a loop
+            System.out.println(Arrays.toString(arr));
