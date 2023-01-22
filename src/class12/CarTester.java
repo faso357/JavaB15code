@@ -11,6 +11,15 @@ public class CarTester {
         bmw.moveForward();
         bmw.applyBrakes();
 
+        // Create two classes of your choice and call
+       // the methods from those classes
+        Car audi = new Car();
+        audi.model = "E-tron";
+        audi.make="Audi";
+        audi.year=2022;
+        audi.color="Black";
+        audi.moveForward();
+
 
 
     }
