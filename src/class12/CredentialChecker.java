@@ -16,6 +16,8 @@ public class CredentialChecker {
         Only after all requirements met → message “Your username and password has been created”
 
          */
+
+        // Break 1:57 PM
         Scanner scanner=new Scanner(System.in);
         System.out.println("Please Enter your usersName");
         String userName=scanner.next();
