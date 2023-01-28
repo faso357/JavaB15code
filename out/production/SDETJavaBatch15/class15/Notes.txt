@@ -13,3 +13,15 @@ Built-in methods?
 User Defined Methods:
     They methods that we write.
 Methods which return something when called and others are methods which do not return anything when called.
+
+ int add(int a,int b){
+ return a+b;
+ }
+ int => return type of a method
+ add => name of the method
+ (int a,int b) => parameters of the method or the input to the method
+ {  => body of the method
+ }
+Rules:
+return type and the values that we are returning from a method should match
+we can only assign methods to variables of same type.
