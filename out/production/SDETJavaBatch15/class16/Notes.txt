@@ -18,3 +18,7 @@ static variables:
 upside:
     static variables only occupy one memory location from the RAM even though we create 1000 objects of that
     class.
+    They can be used in any block of code inside the class they can be accessed in any methods of a class
+    they can also be accessed with the help of any object of that class. They have the most wide scope
+Downside:
+    They are loaded into the memory when a class is loaded even though you don't use them.
