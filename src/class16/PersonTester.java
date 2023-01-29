@@ -9,5 +9,6 @@ public class PersonTester {
         person.printSSN();
         person.printTikTokAccount();
        // person.printPassword();
+        String str="fnkdjnf";
     }
 }
