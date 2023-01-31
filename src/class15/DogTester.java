@@ -6,10 +6,11 @@ public class DogTester {
         Dog dog=new Dog();
         dog.printFood();
         System.out.println("End");
+        System.out.println(Dog.noOfLegs);
 
         for (int i = 0; i < 2; i++) {
             System.out.println(i);
         }
-       // System.out.println(i); can't use outside of block
+        //System.out.println(i); //can't use outside of block
     }
 }

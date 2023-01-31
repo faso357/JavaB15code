@@ -1,6 +1,7 @@
 package class16;
 
 public class Person {
+
     private double bankBalance=1250000;
     String address="Street 123"; // default access level is applied
     public String name="Jon Snow";
@@ -27,3 +28,4 @@ public class Person {
 
     }
 }
+

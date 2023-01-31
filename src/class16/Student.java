@@ -3,7 +3,7 @@ package class16;
 public class Student {
     String name;
     String id;
-  static   String schoolName;
+   static String schoolName; // only one memory location per class
     int age;
     double weight;
     void printName(){

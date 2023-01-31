@@ -22,7 +22,7 @@ public class StudentTester {
         student2.id="789";
         student2.age=26;
         student2.weight=90;
-       // student2.schoolName="Syntax";
+        student2.schoolName="Syntax 1234";
 
         System.out.println(student2.schoolName);
         System.out.println(Student.schoolName); // another way that you might see a lot to access static variables

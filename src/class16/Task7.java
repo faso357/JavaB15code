@@ -26,8 +26,8 @@ public class Task7 {
 
         int[] arr={10,25,35,45};
         Task7 task7=new Task7();
-
         System.out.println(task7.sumArrayElements(arr));
+        
 
     }
 }
