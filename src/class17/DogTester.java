@@ -9,5 +9,13 @@ public class DogTester {
         Dog labrador = new Dog("Labrador", "Labrador the dog",  4, 28.0);
 
         labrador.printInfo();
+
+
+
+        /*
+        Create a class call it Student define 4 instance fields like id Name age weight
+        create 5 objects of this class do this task without constructors and with constructors
+         */
+        // break till  8:57
     }
 }
