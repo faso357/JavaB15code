@@ -37,6 +37,7 @@ public class Test {
         save.takeProfit();//comes from savings
         //save.transfer(); not available
 
+        //finish creating SuperSavings object and see which feature available to that class
 
     }
 }
