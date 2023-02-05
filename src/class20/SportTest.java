@@ -10,5 +10,6 @@ public class SportTest {
         Soccer soc=new Soccer("Soccer", "Argentina", "Oliver's",12);
         soc.display();
         soc.displayTeam();
+
     }
 }
