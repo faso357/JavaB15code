@@ -5,7 +5,7 @@ public class Animal {
     String color;
     int age;
     double weight;
-     void speak(){
+      void speak(){
          System.out.println("Animals can speak");
      }
 
@@ -16,7 +16,7 @@ public class Animal {
 class Cat extends Animal{
 
     // we are overriding speak method in Cat class
-    void speak(){
+     void speak(){
         super.speak();
         System.out.println("Meow Meow .....");
     }
