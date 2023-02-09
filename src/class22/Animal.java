@@ -15,10 +15,13 @@ public class Animal {
 }
 class Cat extends Animal{
 
-    // we are overriding speak method in Cat c;lass
+    // we are overriding speak method in Cat class
     void speak(){
         super.speak();
         System.out.println("Meow Meow .....");
+    }
+    void printName(){
+        System.out.println(name);
     }
 
 }
