@@ -17,4 +17,16 @@ Final keyword:
 
 Break till 11:55
 Abstraction:
+    Abstraction is the process of hiding im-implementation details and showing only the functionality to user.
+Why we should use Abstraction:
+    1) It reduces the code complexity.
+    2) It allows the end user to focus on using the features instead of worrying about the implementation.
+Syntax:
+    we need to declare the methods as abstract if we are not planning to provide the implementations.
+    we also need to write the abstract keyword with the class as well.
+
+
+
+
+
 
