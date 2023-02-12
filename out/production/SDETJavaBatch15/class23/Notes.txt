@@ -14,5 +14,7 @@ Note:
     in your constructor and click on done.
     2) if we press ctrl+o we get an option to override the available methods.
 
-
+Final Keyword when used with a variable The value will not be changed.
+when used with a method no one can override that method
+when used with a class no class can inherit from it.
 
