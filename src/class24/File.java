@@ -1,6 +1,6 @@
 package class24;
 
-public abstract class File {
+public  abstract class File {
 
     int size;
     File(int size){
@@ -8,7 +8,7 @@ public abstract class File {
     }
     abstract void open();
     void edit(){
-        System.out.println("editing the file");
+
     }
     void close(){
         System.out.println("Closing the file");
