@@ -9,5 +9,8 @@ public class MovAbleTester {
         for(WashAble w:washAbles){
             w.wash();
         }
+
+
+
     }
 }
