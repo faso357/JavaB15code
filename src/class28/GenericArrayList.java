@@ -18,6 +18,7 @@ public class GenericArrayList {
         Object b= new Integer(10);
         Object c=new Scanner(System.in);
 
+        // No one now uses the arrays like this.
         ArrayList name=new ArrayList();
         name.add("Ehsan");
         name.add(10);
