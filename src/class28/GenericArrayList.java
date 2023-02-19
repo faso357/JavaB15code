@@ -13,6 +13,7 @@ public class GenericArrayList {
 
         names.add("10");
 
+        // Break till 11:52
 
         Object a=new String("some value");
         Object b= new Integer(10);
