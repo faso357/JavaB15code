@@ -1,6 +1,7 @@
 package class29;
 
 import java.util.ArrayList;
+import java.util.LinkedHashSet;
 
 public class SetsDemo5 {
     public static void main(String[] args) {
@@ -12,6 +13,9 @@ public class SetsDemo5 {
         numbers.add(30);
         numbers.add(30);
         System.out.println(numbers);
+        // Write some logic to remove duplicates from above list
+        LinkedHashSet<Integer> uniqueNumbers=new LinkedHashSet<>(numbers);
+        System.out.println(uniqueNumbers);
 
     }
 }
