@@ -16,10 +16,10 @@ public class MapsDemo4 {
         Set<String> allKeys=makeup.keySet();
         System.out.println(allKeys);
 
-        for (String s:allKeys
-             ) {
-            System.out.println(s);
-        }
+
         // Delete all the entries from the map for which the size of key is greater than 7
+        allKeys.removeIf(x->x.length()>7);
+        System.out.println(allKeys);
+        System.out.println(makeup);
     }
 }
